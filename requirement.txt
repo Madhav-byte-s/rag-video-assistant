@@ -1,0 +1,33 @@
+# Web Framework & Interface
+streamlit>=1.35.0
+
+# LLM Orchestration & Mistral Integration
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-mistralai>=0.1.7
+langchain-huggingface>=0.1.2
+
+# Vector Database & Embeddings
+chromadb>=0.5.0
+langchain-chroma>=0.1.1
+sentence-transformers>=3.0.0
+huggingface-hub>=0.23.0
+
+# Speech Recognition & Audio Processing
+requests>=2.31.0
+openai-whisper
+torch
+torchaudio
+yt-dlp
+yt-dlp-ejs
+pydub
+audioop-lts; python_version >= "3.13"
+
+# Document & Report Generation
+reportlab>=4.2.0
+fpdf2>=2.7.9
+
+# Environment & Utilities
+python-dotenv>=1.0.1
+pydantic>=2.7.0
